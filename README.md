@@ -101,3 +101,36 @@ Emails are triggered using standard Notification Rules configured via Conditions
 ## 👤 About the Developer
 
 Hi, I’m Anu — a developer passionate about business process automation and ITSM platforms. This project reflects my learning journey in ServiceNow platform development, and I hope it helps others
+
+---
+# Work Rate Relay — ServiceNow Scoped Application
+
+## 🎯 Project Scope Update
+
+This repository now includes the **Work Rate Relay** scoped application created in ServiceNow Studio. The scoped app encapsulates all custom tables, forms, notifications, and reports related to managing employee performance reviews.
+
+## 🔗 GitHub Integration
+
+- The scoped application **work-rate-relay** in ServiceNow Studio is linked to this GitHub repository for version control and collaborative development.
+- Source control is managed using ServiceNow Studio's built-in Git integration.
+- Changes pushed from ServiceNow Studio will sync with this repo's branches, ensuring a consistent development workflow.
+
+## 📂 Repository Structure Recap
+
+- `/update_sets` — Exported Update Set XML files (if any)
+- `/docs` — Project documentation, including notification specs
+- `/screenshots` — UI and report screenshots
+- `/data` — Sample data or test records
+- `.gitignore`, `LICENSE`, and this `README.md` — At root for project metadata and git management
+
+---
+
+## 📢 Next Steps
+
+- Continue developing features within the scoped app using ServiceNow Studio.
+- Commit and push updates regularly to this GitHub repository.
+- Keep documentation and sample data up to date for easier onboarding and review.
+
+---
+
+*Developed by Anu — www.linkedin.com/in/anurampallichitta*  

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email_layout">
+    <sys_email_layout action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <advanced_layout/>
+        <description>This email template is used by the Work Rate Relay application when emails are sent to employees notifying them of their performance rating and to managers notifying whenever employees create a work done in FY24 record.</description>
+        <layout><![CDATA[<p><img src="/sys_attachment.do?sys_id=8ed24c52c3e2ea1049ccbd0ed40131ca" width="1043" height="587"></p>
+<p>${notification:body}</p>
+<p><img src="/sys_attachment.do?sys_id=05330816c3e2ea1049ccbd0ed40131f7" width="1043" height="589"></p>
+<p></p>]]></layout>
+        <name>Work Rate Relay Email Layout</name>
+        <sys_class_name>sys_email_layout</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-07 03:23:14</sys_created_on>
+        <sys_id>568108d2c3e2ea1049ccbd0ed4013194</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Work Rate Relay Email Layout</sys_name>
+        <sys_package display_value="Work Rate Relay" source="x_1778869_wrr">8fa5934ac3eeaa1049ccbd0ed4013197</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Rate Relay">8fa5934ac3eeaa1049ccbd0ed4013197</sys_scope>
+        <sys_update_name>sys_email_layout_568108d2c3e2ea1049ccbd0ed4013194</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-07 03:28:48</sys_updated_on>
+    </sys_email_layout>
+</record_update>

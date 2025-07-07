@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_1778869_wrr_manager_table</collection>
+        <email_layout display_value="Work Rate Relay Email Layout">568108d2c3e2ea1049ccbd0ed4013194</email_layout>
+        <message/>
+        <message_html><![CDATA[<p>Employee name: ${employee_name}</p>
+<p>Manager name: ${manager_name}</p>
+<p>Performance review: ${performance_review}</p>
+<p>Rating: ${rating}</p>
+<p>&nbsp;</p>
+<p>Kind Regards</p>
+<p>Admin</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>WRR Rating Updated Email Template</name>
+        <sms_alternate/>
+        <subject>Performance Rating has been updated</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-07 03:35:47</sys_created_on>
+        <sys_id>b5e44cd2c3e2ea1049ccbd0ed401310b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>WRR Rating Updated Email Template</sys_name>
+        <sys_package display_value="Work Rate Relay" source="x_1778869_wrr">8fa5934ac3eeaa1049ccbd0ed4013197</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Rate Relay">8fa5934ac3eeaa1049ccbd0ed4013197</sys_scope>
+        <sys_update_name>sysevent_email_template_b5e44cd2c3e2ea1049ccbd0ed401310b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-07 03:45:35</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

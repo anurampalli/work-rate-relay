@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1778869_wrr_employee_table</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-07 00:15:06</sys_created_on>
+        <sys_id>75375b4ec3eeaa1049ccbd0ed4013176</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1778869_wrr_employee_table</sys_name>
+        <sys_package display_value="work-rate-relay" source="x_1778869_wrr">8fa5934ac3eeaa1049ccbd0ed4013197</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="work-rate-relay">8fa5934ac3eeaa1049ccbd0ed4013197</sys_scope>
+        <sys_update_name>sys_security_acl_75375b4ec3eeaa1049ccbd0ed4013176</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-07 00:15:06</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Work Rate Relay">8fa5934ac3eeaa1049ccbd0ed4013197</application>
+        <file_path/>
+        <instance_id>8a8dfce4db4e31d4199b17291396197d</instance_id>
+        <instance_name>dev190528</instance_name>
+        <name>sys_security_acl_75375b4ec3eeaa1049ccbd0ed4013176</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description/><local_or_existing>Local</local_or_existing><name>x_1778869_wrr_employee_table</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-07 00:15:06</sys_created_on><sys_id>75375b4ec3eeaa1049ccbd0ed4013176</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1778869_wrr_employee_table</sys_name><sys_package display_value="work-rate-relay" source="x_1778869_wrr">8fa5934ac3eeaa1049ccbd0ed4013197</sys_package><sys_policy/><sys_scope display_value="work-rate-relay">8fa5934ac3eeaa1049ccbd0ed4013197</sys_scope><sys_update_name>sys_security_acl_75375b4ec3eeaa1049ccbd0ed4013176</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-07 00:15:06</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-665841197</payload_hash>
+        <record_name>x_1778869_wrr_employee_table</record_name>
+        <reverted_from/>
+        <source>4ba59bcac3eeaa1049ccbd0ed40131d3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-07 00:15:06</sys_created_on>
+        <sys_id>f1375b4ec3eeaa1049ccbd0ed4013179</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197e23c84150000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-07 00:15:06</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>f5375b4ee8eeaa102dfa3c4f91e24478</update_guid>
+        <update_guid_history>f5375b4ee8eeaa102dfa3c4f91e24478:-665841197</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-07 00:25:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>04154cb83d6c402e80a45b099aaa5989</sys_id>
+        <sys_metadata>75375b4ec3eeaa1049ccbd0ed4013176</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1778869_wrr_employee_table</sys_name>
+        <sys_package display_value="Work Rate Relay" source="x_1778869_wrr">8fa5934ac3eeaa1049ccbd0ed4013197</sys_package>
+        <sys_parent display_value="">cd371b4ec3eeaa1049ccbd0ed4013186</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Work Rate Relay">8fa5934ac3eeaa1049ccbd0ed4013197</sys_scope>
+        <sys_scope_delete display_value="">90fe697170c648f5b3e77bf28d239581</sys_scope_delete>
+        <sys_update_name>sys_security_acl_75375b4ec3eeaa1049ccbd0ed4013176</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_75375b4ec3eeaa1049ccbd0ed4013176">f1375b4ec3eeaa1049ccbd0ed4013179</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-07 00:25:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

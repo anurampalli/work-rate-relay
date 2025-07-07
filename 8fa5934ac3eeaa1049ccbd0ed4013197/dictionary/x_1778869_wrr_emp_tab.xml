@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e4c8d7cec3eeaa1049ccbd0ed4013134" label="Employee table" max_length="40" name="x_1778869_wrr_emp_tab" type="collection">
+        <element attributes="encode_utf8=false" label="Employee Name" max_length="32" name="employee_name" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Employee id" max_length="40" name="number" type="string"/>
+        <element label="Work done in FY24" max_length="65536" name="work_done_in_fy24" type="html"/>
+        <index name="index">
+            <element name="employee_name"/>
+        </index>
+    </element>
+</database>

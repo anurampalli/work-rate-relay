@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="DELETE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>TM User</name>
+        <order>100</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>false</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>x_1778869_wrr_work_rate_relay_import_set</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-07 02:10:33</sys_created_on>
+        <sys_id>4851f3cec362ea1049ccbd0ed4013127</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TM User</sys_name>
+        <sys_package display_value="Work Rate Relay" source="x_1778869_wrr">8fa5934ac3eeaa1049ccbd0ed4013197</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Rate Relay">8fa5934ac3eeaa1049ccbd0ed4013197</sys_scope>
+        <sys_update_name>sys_transform_map_4851f3cec362ea1049ccbd0ed4013127</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-07 02:10:33</sys_updated_on>
+        <target_table>sys_user</target_table>
+    </sys_transform_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Work Rate Relay">8fa5934ac3eeaa1049ccbd0ed4013197</application>
+        <file_path/>
+        <instance_id>8a8dfce4db4e31d4199b17291396197d</instance_id>
+        <instance_name>dev190528</instance_name>
+        <name>sys_transform_map_4851f3cec362ea1049ccbd0ed4013127</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;&lt;sys_transform_map action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;&lt;create_new_record_on_empty_coalesce_fields&gt;false&lt;/create_new_record_on_empty_coalesce_fields&gt;&lt;enforce_mandatory_fields&gt;No&lt;/enforce_mandatory_fields&gt;&lt;name&gt;TM User&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;run_business_rules&gt;true&lt;/run_business_rules&gt;&lt;run_script&gt;false&lt;/run_script&gt;&lt;script&gt;&lt;![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]&gt;&lt;/script&gt;&lt;source_table&gt;x_1778869_wrr_work_rate_relay_import_set&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-07-07 02:10:33&lt;/sys_created_on&gt;&lt;sys_id&gt;4851f3cec362ea1049ccbd0ed4013127&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;TM User&lt;/sys_name&gt;&lt;sys_package display_value="Work Rate Relay" source="x_1778869_wrr"&gt;8fa5934ac3eeaa1049ccbd0ed4013197&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Work Rate Relay"&gt;8fa5934ac3eeaa1049ccbd0ed4013197&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_map_4851f3cec362ea1049ccbd0ed4013127&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-07 02:10:33&lt;/sys_updated_on&gt;&lt;target_table&gt;sys_user&lt;/target_table&gt;&lt;/sys_transform_map&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>62398235</payload_hash>
+        <record_name>TM User</record_name>
+        <reverted_from/>
+        <source>f1ba9b82c322ea1049ccbd0ed40131e7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-07 02:10:33</sys_created_on>
+        <sys_id>0da1f3cec362ea1049ccbd0ed40131dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197e2a6390a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-07 02:10:33</sys_updated_on>
+        <type>Table Transform Map</type>
+        <update_guid>01a1f3ce7462ea10f7ec3660c3cf44dc</update_guid>
+        <update_guid_history>01a1f3ce7462ea10f7ec3660c3cf44dc:62398235</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-07 02:16:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_map">sys_transform_map</sys_db_object>
+        <sys_id>0b53db0064614a1183ffb1f93c907441</sys_id>
+        <sys_metadata>4851f3cec362ea1049ccbd0ed4013127</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TM User</sys_name>
+        <sys_package display_value="Work Rate Relay" source="x_1778869_wrr">8fa5934ac3eeaa1049ccbd0ed4013197</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Work Rate Relay">8fa5934ac3eeaa1049ccbd0ed4013197</sys_scope>
+        <sys_scope_delete display_value="">90fe697170c648f5b3e77bf28d239581</sys_scope_delete>
+        <sys_update_name>sys_transform_map_4851f3cec362ea1049ccbd0ed4013127</sys_update_name>
+        <sys_update_version display_value="sys_transform_map_4851f3cec362ea1049ccbd0ed4013127">0da1f3cec362ea1049ccbd0ed40131dc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-07 02:16:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c1343f82c3a2ea1049ccbd0ed401310a" extends="sys_import_set_row" label="Work Rate Relay Import Set" max_length="40" name="x_1778869_wrr_work_rate_relay_import_set" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Work Done in FY24" label="Work Done in FY24" max_length="2872" name="u_work_done_in_fy24" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Email" label="Email" max_length="40" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Last Name" label="Last Name" max_length="40" name="u_last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Manager Email" label="Manager Email" max_length="40" name="u_manager_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=First Name" label="First Name" max_length="40" name="u_first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Full Name" label="Full Name" max_length="40" name="u_full_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Rating" label="Rating" max_length="40" name="u_rating" type="string"/>
+        <element attributes="import_attribute_name=Phone" label="Phone" max_length="40" name="u_phone" type="float"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Performance Review" label="Performance Review" max_length="3097" name="u_performance_review" type="string"/>
+    </element>
+</database>

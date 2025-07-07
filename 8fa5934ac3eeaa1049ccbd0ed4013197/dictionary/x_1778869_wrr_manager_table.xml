@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="61f7d78ec3eeaa1049ccbd0ed401318c" label="Manager table" max_length="40" name="x_1778869_wrr_manager_table" type="collection">
+        <element label="Performance review" max_length="65536" name="performance_review" type="html"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Rating" max_length="40" name="rating" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Excellent" value="excellent"/>
+                <element inactive_on_update="false" label="Bad" value="bad"/>
+                <element inactive_on_update="false" label="Good" value="good"/>
+                <element inactive_on_update="false" label="Very Good" value="very_good"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Employee name" max_length="32" name="employee_name" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Manager name" max_length="32" name="manager_name" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="employee_name"/>
+        </index>
+        <index name="index2">
+            <element name="manager_name"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="TM Employee">ac0cff06c3a2ea1049ccbd0ed4013143</map>
+        <reference_value_field/>
+        <source_field>u_work_done_in_fy24</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>x_1778869_wrr_work_rate_relay_import_set</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-07 02:57:52</sys_created_on>
+        <sys_id>c27c7f4ac3a2ea1049ccbd0ed401312d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_work_done_in_fy24</sys_name>
+        <sys_package display_value="Work Rate Relay" source="x_1778869_wrr">8fa5934ac3eeaa1049ccbd0ed4013197</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Rate Relay">8fa5934ac3eeaa1049ccbd0ed4013197</sys_scope>
+        <sys_update_name>sys_transform_entry_c27c7f4ac3a2ea1049ccbd0ed401312d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-07 02:57:52</sys_updated_on>
+        <target_field>work_done_in_fy24</target_field>
+        <target_table>x_1778869_wrr_emp_tab</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+</record_update>

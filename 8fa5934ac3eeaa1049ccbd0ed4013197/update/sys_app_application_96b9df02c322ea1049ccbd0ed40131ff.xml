@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description>Work Rate Relay is a ServiceNow scoped application designed to streamline employee performance reviews by automating data entry, notification delivery, and reporting. Built using ServiceNow Studio and Git source control, this project showcases practical application development across custom tables, workflows, email notifications, and real-time analytics.&#13;
+&#13;
+This app was developed as part of a training project to demonstrate end-to-end capabilities in ServiceNow development — including table design, email triggers, report configuration, and scoped app packaging.</description>
+        <device_type>browser</device_type>
+        <hint>Work Rate Relay is a ServiceNow app that automates reviews via custom workflows, email alerts &amp; real-time analytics. Built with Studio &amp; Git.</hint>
+        <name/>
+        <order/>
+        <roles>admin</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-07 00:26:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>96b9df02c322ea1049ccbd0ed40131ff</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Work Rate Relay</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Work Rate Relay" source="x_1778869_wrr">8fa5934ac3eeaa1049ccbd0ed4013197</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Work Rate Relay">8fa5934ac3eeaa1049ccbd0ed4013197</sys_scope>
+        <sys_update_name>sys_app_application_96b9df02c322ea1049ccbd0ed40131ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-07 00:41:52</sys_updated_on>
+        <title>Work Rate Relay</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

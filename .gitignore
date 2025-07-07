@@ -1,0 +1,10 @@
+# Ignore system/OS files
+.DS_Store
+Thumbs.db
+
+# Ignore ServiceNow Studio workspace metadata (if present)
+*.sn-meta
+*.sn-config
+
+# Ignore update set exports (optional)
+update_sets/*.xml

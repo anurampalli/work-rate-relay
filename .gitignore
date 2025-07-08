@@ -7,4 +7,4 @@ Thumbs.db
 *.sn-config
 
 # Ignore update set exports (optional)
-update_sets/*.xml
+# update_sets/*.xml

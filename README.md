@@ -1,4 +1,4 @@
-# 📘 Work Rate Relay
+# Work Rate Relay
 
 Work Rate Relay is a ServiceNow scoped application designed to streamline employee performance reviews by automating data entry, notification delivery, and reporting. Built using ServiceNow Studio and Git source control, this project showcases practical application development across custom tables, workflows, email notifications, and real-time analytics.
 
@@ -6,7 +6,7 @@ This app was developed as part of a training project to demonstrate end-to-end c
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - ServiceNow Studio (Scoped Application)
 - Git Integration with Source Control
@@ -17,7 +17,7 @@ This app was developed as part of a training project to demonstrate end-to-end c
 
 ---
 
-## 📁 Application Modules
+## Application Modules
 
 | Module           | Description                                                                 |
 |------------------|-----------------------------------------------------------------------------|
@@ -28,7 +28,7 @@ This app was developed as part of a training project to demonstrate end-to-end c
 
 ---
 
-## 🧾 Table Structures
+## Table Structures
 
 🧑‍💼 Employee Table
 - Employee ID (auto-generated)
@@ -43,7 +43,7 @@ This app was developed as part of a training project to demonstrate end-to-end c
 
 ---
 
-## 🔔 Email Notification Logic
+## Email Notification Logic
 
 - When an employee creates a new record, the system:
   - Sends an email to the assigned manager
@@ -57,7 +57,7 @@ Emails are triggered using standard Notification Rules configured via Conditions
 
 ---
 
-## 📊 Report Generation
+## Report Generation
 
 - Pie Chart report categorizes employee performance by rating level:
   - Excellent: 2 employees
@@ -69,16 +69,16 @@ Emails are triggered using standard Notification Rules configured via Conditions
 
 ---
 
-## 🧩 Update Set Strategy
+## Update Set Strategy
 
 - The application changes are stored in an Update Set called:
-  Work Rate Relay – Core Setup
+  sys_remote_update_set_011924eec36a2e1049ccbd0ed40131a6.xml
 
 - This allows easy export/import into other instances if needed.
 
 ---
 
-## 💻 Setup & Import Guide
+## Setup & Import Guide
 
 1. Clone this repository.
 2. Open your PDI (Personal Developer Instance).
@@ -89,7 +89,7 @@ Emails are triggered using standard Notification Rules configured via Conditions
 
 ---
 
-## 📷 Screenshots (to be added)
+## Screenshots (to be added)
 
 - Form layout for Employee table
 - Manager review interface
@@ -105,17 +105,17 @@ Hi, I’m Anu — a developer passionate about business process automation and I
 ---
 # Work Rate Relay — ServiceNow Scoped Application
 
-## 🎯 Project Scope Update
+## Project Scope Update
 
 This repository now includes the **Work Rate Relay** scoped application created in ServiceNow Studio. The scoped app encapsulates all custom tables, forms, notifications, and reports related to managing employee performance reviews.
 
-## 🔗 GitHub Integration
+## GitHub Integration
 
 - The scoped application **work-rate-relay** in ServiceNow Studio is linked to this GitHub repository for version control and collaborative development.
 - Source control is managed using ServiceNow Studio's built-in Git integration.
 - Changes pushed from ServiceNow Studio will sync with this repo's branches, ensuring a consistent development workflow.
 
-## 📂 Repository Structure Recap
+## Repository Structure Recap
 
 - `/update_sets` — Exported Update Set XML files (if any)
 - `/docs` — Project documentation, including notification specs
@@ -125,7 +125,7 @@ This repository now includes the **Work Rate Relay** scoped application created 
 
 ---
 
-## 📢 Next Steps
+## Next Steps
 
 - Continue developing features within the scoped app using ServiceNow Studio.
 - Commit and push updates regularly to this GitHub repository.
